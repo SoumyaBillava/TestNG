@@ -1,0 +1,15 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite One" >
+ <test name="Test One" >
+ 	<parameter name="sUsername" value="soumya.billava@sagarsoft.in"/>
+ 	<parameter name="sPassword" value="India_123$"/>
+  <classes>
+   <class name="package1.Parameter" />
+  </classes>
+ </test>
+ <test name="Test Two" >
+  <classes>
+   <class name="package1.Simple" />
+  </classes>
+ </test>
+</suite>
